@@ -1,15 +1,15 @@
 package com.ndev.amazon;
+
+
 import java.util.Date;
-import com.ndev.amazonviewer.model.Movie;
+
+import com.anncode.amazonviewer.model.Movie;
 
 public class main {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		
-		Movie movie = new Movie ("Coco", "Animation", (short)2017);
-		movie.showDate();
-		//showMenu();
+		showMenu();
 
 	}
 	

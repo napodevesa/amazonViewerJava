@@ -9,7 +9,7 @@ public class main {
 		
 		Movie movie = new Movie ("Coco", "Animation", (short)2017);
 		movie.showDate();
-		//showMenu();
+		showMenu();
 
 	}
 	

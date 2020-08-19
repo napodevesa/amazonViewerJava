@@ -31,12 +31,6 @@ public class Movie {
 		this.year = year;
 	}
 	
-	public void showDate () {
-		System.out.println ("Title: " + this.title);
-		System.out.println ("Género: " + this.genre);
-		System.out.println ("Año: " + this.year);
-	}
-	
 	
 	
 
