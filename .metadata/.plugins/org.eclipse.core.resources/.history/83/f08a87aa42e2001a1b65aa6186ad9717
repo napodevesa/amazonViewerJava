@@ -8,8 +8,8 @@ public class main {
 		// TODO Auto-generated method stub
 		
 		Movie movie = new Movie ("Coco", "Animation", (short)2017);
-	//	movie.title = "Rambo";
 		movie.showDate();
+		
 		
 		//showMenu();
 

@@ -10,19 +10,9 @@ public class Serie {
 	private short year;
 	private boolean viewed;
 	private int timeViewed;
-
 	
-	public Serie(String title, String genre, int duration) {
-		super();
-		this.title = title;
-		this.genre = genre;
-		this.duration = duration;
-	}
+	private int sessionQuantity;
 	
-	//private int sessionQuantity;
-	
-	
-	
-	
+	//chapters[]
 
 }
