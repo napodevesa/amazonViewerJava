@@ -9,12 +9,9 @@ public class main {
 		
 		Movie movie = new Movie ("Coco", "Animation", (short)2017);
 	//	movie.title = "Rambo";
-		movie.setTitle("Rambo");
-		movie.getTitle();
 		movie.showDate();
 		
 		//showMenu();
-		
 
 	}
 	
