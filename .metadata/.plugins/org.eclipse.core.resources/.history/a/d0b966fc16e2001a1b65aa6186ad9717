@@ -1,7 +1,7 @@
 package com.ndev.amazonviewer.model;
 
-public class Serie {
-	
+public class Magazine {
+
 	int id;
 	String title;
 	String genre;
@@ -11,8 +11,4 @@ public class Serie {
 	boolean viewed;
 	int timeViewed;
 	
-	int sessionQuantity;
-	
-	//chapters[]
-
 }
