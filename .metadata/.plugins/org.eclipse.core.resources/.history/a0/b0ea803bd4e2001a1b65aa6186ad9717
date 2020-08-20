@@ -30,12 +30,5 @@ public class Movie extends Film {
 		this.timeViewed = timeViewed;
 	}
 	
-	public String toString () {
-		return "\n Title: " + getTitle() + 
-				"\n Género: " + getGenre() + 
-				"\n Year: "+ getYear() + 
-				"\n Creator: " + getCreator() +
-				"\n Duration: " + getDuration();
-	}
-	
+
 }

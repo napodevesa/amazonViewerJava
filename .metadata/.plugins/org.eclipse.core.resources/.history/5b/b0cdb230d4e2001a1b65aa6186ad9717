@@ -31,7 +31,6 @@ public class Serie extends Film {
 	public void setChapters(Chapter[] chapters) {
 		this.chapters = chapters;
 	}
-
 	
 
 }
