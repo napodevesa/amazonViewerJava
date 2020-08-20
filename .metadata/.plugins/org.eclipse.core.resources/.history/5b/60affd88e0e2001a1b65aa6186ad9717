@@ -1,6 +1,5 @@
 package com.ndev.amazonviewer.model;
 
-import java.util.ArrayList;
 import java.util.Date;
 
 
@@ -62,17 +61,4 @@ public class Movie extends Film implements IVisualizable {
 	
 	}
 	
-	public static ArrayList <Movie> makeMoviesList(){
-		
-		ArrayList <Movie> movies = new ArrayList ();
-		
-		for (int i = 0; i <= 5; i++) {
-			
-			movies.add(new Movie("Movie " + i,  "Género: " + i, 
-					"Creador " + i,  120 + i,  (short)(2017+i )));
-		}
-		
-		return movies;
-		
-	}
 }
