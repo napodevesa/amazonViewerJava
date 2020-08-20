@@ -1,0 +1,15 @@
+package com.ndev.amazonviewer.model;
+
+public class Serie  {
+	
+	private int id;
+	private int sessionQuantity;
+	private Chapter[] chapter; 
+	
+	
+	public int getId() {
+		return id;
+	}
+	
+
+}

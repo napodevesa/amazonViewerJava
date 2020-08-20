@@ -6,11 +6,15 @@ public class main {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		Movie movie = new Movie ("Coco", "Animation",(short)2017);
+		
+		Movie movie = new Movie ("Coco", "Animation", (short)2017);
+	//	movie.title = "Rambo";
 		movie.setTitle("Rambo");
-		movie.showData();
+		movie.getTitle();
+		movie.showDate();
 		
 		//showMenu();
+		
 
 	}
 	

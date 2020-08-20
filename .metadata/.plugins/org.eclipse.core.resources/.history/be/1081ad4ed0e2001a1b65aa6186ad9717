@@ -2,6 +2,7 @@ package com.ndev.amazonviewer.model;
 
 public class Serie extends Film {
 	
+	
 	private int id;
 	private int sessionQuantity;
 	private Chapter[] chapter; 
@@ -12,6 +13,7 @@ public class Serie extends Film {
 		
 		this.sessionQuantity = sessionQuantity;
 	}
+	
 	
 	public int getId() {
 		return id;
