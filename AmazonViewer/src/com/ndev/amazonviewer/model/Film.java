@@ -10,6 +10,7 @@ public class Film {
 	private boolean viewed;
 	
 	
+	
 	public Film(String title, String genre, String creator, int duration) {
 		super();
 		this.title = title;
@@ -17,11 +18,10 @@ public class Film {
 		this.creator = creator;
 		this.duration = duration;
 	}
-
+	
 	public String getTitle() {
 		return title;
 	}
-	
 	public void setTitle(String title) {
 		this.title = title;
 	}
@@ -46,22 +46,27 @@ public class Film {
 	public short getYear() {
 		return year;
 	}
-	public void setYear(short year2) {
-		this.year = year2;
+	public void setYear(short year) {
+		this.year = year;
 	}
 	public String isViewed() {
-		
 		String visto = "";
-		if (viewed) {
+		if(viewed == true) {
 			visto = "Sí";
 		}else {
 			visto = "No";
 		}
-		return visto;	
+		
+		return visto;
+	}
+	
+	public boolean getIsViewed() {
+		return viewed;
 	}
 	public void setViewed(boolean viewed) {
 		this.viewed = viewed;
 	}
+	
 	
 	
 
