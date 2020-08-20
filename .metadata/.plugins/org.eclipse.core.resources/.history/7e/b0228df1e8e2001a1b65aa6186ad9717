@@ -4,7 +4,6 @@ import java.util.Scanner;
 import java.util.ArrayList;
 
 import com.ndev.amazonviewer.model.Book;
-import com.ndev.amazonviewer.model.Chapter;
 import com.ndev.amazonviewer.model.Movie;
 import com.ndev.amazonviewer.model.Serie;
 

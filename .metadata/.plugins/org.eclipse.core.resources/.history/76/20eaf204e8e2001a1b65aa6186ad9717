@@ -4,11 +4,10 @@ import java.util.Scanner;
 import java.util.ArrayList;
 
 import com.ndev.amazonviewer.model.Book;
-import com.ndev.amazonviewer.model.Chapter;
 import com.ndev.amazonviewer.model.Movie;
-import com.ndev.amazonviewer.model.Serie;
+mport com.anncode.amazonviewer.model.Serie;
 
-public class main {
+public class Main {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
