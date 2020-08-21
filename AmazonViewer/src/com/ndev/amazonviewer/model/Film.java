@@ -1,6 +1,6 @@
 package com.ndev.amazonviewer.model;
 
-public class Film {
+public abstract class Film {
 	
 	private String title;
 	private String genre;
@@ -8,7 +8,6 @@ public class Film {
 	private int duration;
 	private short year;
 	private boolean viewed;
-	
 	
 	
 	public Film(String title, String genre, String creator, int duration) {
@@ -67,7 +66,9 @@ public class Film {
 		this.viewed = viewed;
 	}
 	
+	//método abstracto
 	
+	public abstract void view ();
 	
 
 }
